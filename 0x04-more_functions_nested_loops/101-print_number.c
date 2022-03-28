@@ -9,8 +9,9 @@
 
 void print_number(int n)
 {
-	int k = n;
+	unsigned int k = n;
 
+	k = n;
 	if (n < 0)
 	{
 		n *= -1;
